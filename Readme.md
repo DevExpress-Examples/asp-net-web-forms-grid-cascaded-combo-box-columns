@@ -3,7 +3,7 @@
 
 * [DataProvider.cs](./CS/Example/App_Code/DataProvider.cs) (VB: [DataProvider.vb](./VB/Example/App_Code/DataProvider.vb))
 * [Default.aspx](./CS/Example/Default.aspx) (VB: [Default.aspx](./VB/Example/Default.aspx))
-* [Default.aspx.cs](./CS/Example/Default.aspx.cs) (VB: [Default.aspx](./VB/Example/Default.aspx))
+* [Default.aspx.cs](./CS/Example/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Example/Default.aspx.vb))
 <!-- default file list end -->
 # How to implement cascaded combo box columns in ASPxGridView without using templates
 
