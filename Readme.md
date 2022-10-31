@@ -1,11 +1,11 @@
-# ASPxGridView for ASP.NET Web Forms - Cascading Combo Boxes
+# Grid View for ASP.NET Web Forms - Cascading Combo Boxes
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e3689/)**
 <!-- run online end -->
 
 This example demonstrates how to implement cascading combo box editors within [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView).
 
-![CascadingComboBoxes](~/images/CascadingComboBoxes.png)
+![CascadingComboBoxes](images/CascadingComboBoxes.png)
 
 ## Setup the Grid and its Column Editors
 
@@ -36,7 +36,7 @@ Create an [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxG
 
 ## Respond to a Selection Change on the Client Side
 
-Handle the primary editor's client-side [SelectedIndexChanged](https://docs.devexpress.com/AspNet/js-ASPxClientComboBox.SelectedIndexChanged) event. In this event handler, get the current editor's value (the [GetValue](https://docs.devexpress.com/AspNet/js-ASPxClientEditBase.GetValue) method) and pass it as a parameter in the [PerformCallback](https://docs.devexpress.com/AspNet/js-ASPxClientComboBox.PerformCallback(parameter)) method of the secondary editor. To access the secondary editor, call the [GetEditor](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetEditor(column)) method.
+Handle the primary editor's client-side [SelectedIndexChanged](https://docs.devexpress.com/AspNet/js-ASPxClientComboBox.SelectedIndexChanged) event. In this event handler, get the editor value (the [GetValue](https://docs.devexpress.com/AspNet/js-ASPxClientEditBase.GetValue) method) and pass it as a parameter in the [PerformCallback](https://docs.devexpress.com/AspNet/js-ASPxClientComboBox.PerformCallback(parameter)) method of the secondary editor. To access the secondary editor, call the [GetEditor](https://docs.devexpress.com/AspNet/js-ASPxClientGridView.GetEditor(column)) method.
 
 ```xml
 <dx:ASPxGridView ID="Grid" runat="server" ... >
@@ -60,7 +60,7 @@ function CountriesCombo_SelectedIndexChanged(s, e) {
 
 ## Filter the Secondary Combo Box Values on the Server Side
 
-In the grid's [CellEditorInitialize](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CellEditorInitialize) event handler, access the secondary editor and handle its [Callback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCallback.Callback) event. In this event handler, use the [Parameter](https://docs.devexpress.com/AspNet/DevExpress.Web.CallbackEventArgsBase.Parameter) argument property to obtain the primary editor's value from the client side. Filter the secondary editor's data source based on this value.
+In the [CellEditorInitialize](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView.CellEditorInitialize) event handler, access the secondary editor and add a handler to its [Callback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCallback.Callback) event. In the handler, use the [Parameter](https://docs.devexpress.com/AspNet/DevExpress.Web.CallbackEventArgsBase.Parameter) argument property to obtain the primary editor's value from the client side. Filter the secondary editor's data source based on this value and bind the filtered values to the editor.
 
 ```c#
 protected void Grid_CellEditorInitialize(object sender, ASPxGridViewEditorEventArgs e) {
