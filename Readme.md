@@ -9,7 +9,7 @@ This example demonstrates how to implement cascading combo box editors within [A
 
 ## Setup the Grid and its Column Editors
 
-Create an [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) control, assign its data source, and set the grid's [edit mode](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridViewEditingSettings.Mode) to `Inline`. Add two columns of the [GridViewDataComboBoxColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn) type and set their data sources.
+Create an [ASPxGridView](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridView) control, assign its data source, and set the grid's [edit mode](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxGridViewEditingSettings.Mode) to `Inline`. Add two columns of the [GridViewDataComboBoxColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.GridViewDataComboBoxColumn) type and specify their data sources.
 
 ```xml
 <dx:ASPxGridView ID="Grid" runat="server" AutoGenerateColumns="false" DataSourceID="Customers"
