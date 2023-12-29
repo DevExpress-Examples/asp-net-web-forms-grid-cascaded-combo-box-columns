@@ -11,9 +11,6 @@
 * [Default.aspx.cs](./CS/Example/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Example/Default.aspx.vb))
 <!-- default file list end -->
 # How to implement cascaded combo box columns in ASPxGridView without using templates
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128541031/)**
-<!-- run online end -->
 
 
 <p>The example illustrates how to create an editable grid with cascaded combobox columns. The implementation of the example includes the handling of manual callbacks and providing items for appropriate arguments.<br />
