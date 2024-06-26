@@ -2,6 +2,7 @@
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128541031/15.1.3%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3689)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - Cascading Combo Boxes
 
@@ -113,3 +114,10 @@ protected void FillCitiesComboBox(ASPxComboBox combo, int countryID) {
 - [Cascading Editors Demo](https://demos.devexpress.com/ASPxGridViewDemos/GridEditing/CascadingComboBoxes.aspx)
 - [ASPxGridView - How to implement cascading comboboxes in Batch Edit mode](https://github.com/DevExpress-Examples/aspxgridview-how-to-implement-cascading-comboboxes-in-batch-edit-mode-t124512)
 - [MVC ComboBox Extension - Cascading Combo Boxes](https://github.com/DevExpress-Examples/mvc-combobox-extension-cascading-combo-boxes-e2844)
+<!-- feedback -->
+## Does this example address your development requirements/objectives?
+
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-cascaded-combo-box-columns&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-cascaded-combo-box-columns&~~~was_helpful=no)
+
+(you will be redirected to DevExpress.com to submit your response)
+<!-- feedback end -->
