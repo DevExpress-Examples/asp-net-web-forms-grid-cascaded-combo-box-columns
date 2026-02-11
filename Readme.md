@@ -115,7 +115,7 @@ protected void FillCitiesComboBox(ASPxComboBox combo, int countryID) {
 - [ASPxGridView - How to implement cascading comboboxes in Batch Edit mode](https://github.com/DevExpress-Examples/aspxgridview-how-to-implement-cascading-comboboxes-in-batch-edit-mode-t124512)
 - [MVC ComboBox Extension - Cascading Combo Boxes](https://github.com/DevExpress-Examples/mvc-combobox-extension-cascading-combo-boxes-e2844)
 <!-- feedback -->
-## Does This Example Address Your Development Requirements/Objectives?
+## Does this example address your development requirements/objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-cascaded-combo-box-columns&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-cascaded-combo-box-columns&~~~was_helpful=no)
 
