@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite\", "WebSite\", "{E7100136-FDA4-46DF-B114-8F6ECC7C2DF8}"
 	ProjectSection(WebsiteProperties) = preProject
